@@ -1,10 +1,7 @@
-# django-grappelli-captcha-admin， fork from github.com/a-roomana/django-multi-captcha-admin
+# django-grappelli-captcha-admin
 
-[![PyPi Version](https://img.shields.io/pypi/v/django-multi-captcha-admin.svg)](https://pypi.python.org/pypi/django-multi-captcha-admin)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/django-multi-captcha-admin.svg)](https://pypistats.org/packages/django-multi-captcha-admin)
-[![GitHub stars](https://img.shields.io/github/stars/a-roomana/django-multi-captcha-admin.svg?style=social)](https://github.com/a-roomana/django-multi-captcha-admin)
 
-Easy added captcha to Django administration login page.
+Easy added captcha to Django administration login page. inherit from a-roomana/django-multi-captcha-admin
 
 ---
 ## Dependency
@@ -30,6 +27,11 @@ INSTALLED_APPS = [
 	'django.contrib.admin',
 	...
 ]
+
+CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.math_challenge'
+CAPTCHA_TIMEOUT = 1
+CAPTCHA_GET_FROM_POOL_TIMEOUT = 0
+CAPTCHA_BACKGROUND_COLOR = '#bbaaaa'
 ```
 
 ### Engines
@@ -52,6 +54,9 @@ MULTI_CAPTCHA_ADMIN = {
 
 ----------
 ## Results
+[simple captcha](https://github.com/mbi/django-simple-captcha)
+
+![captcha of recaptcha](https://github.com/xcai/django-grappelli-captcha-admin/blob/main/django-simple-captcha.png)
 
 [recaptcha2](https://github.com/kbytesys/django-recaptcha2)
 
@@ -62,7 +67,3 @@ MULTI_CAPTCHA_ADMIN = {
 
 ![captcha of recaptcha](http://bayanbox.ir/view/2014387201108001651/reCaptcha.png)
 
-
-[simple captcha](https://github.com/mbi/django-simple-captcha)
-
-![captcha of recaptcha](http://bayanbox.ir/view/721684099022571779/simple-captcha.png)
