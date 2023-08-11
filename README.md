@@ -1,7 +1,11 @@
 # django-grappelli-captcha-admin
 
+[![PyPi Version](https://img.shields.io/pypi/v/django-grappelli-captcha-admin.svg)](https://pypi.org/project/django-grappelli-captcha-admin/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dw/django-grappelli-captcha-admin.svg)](https://pypistats.org/search/django-grappelli-captcha-admin)
+[![GitHub stars](https://img.shields.io/github/stars/a-roomana/django-multi-captcha-admin.svg?style=social)](https://github.com/xcai/django-grappelli-captcha-admin)
 
-Easy added captcha to Django administration login page. inherit from a-roomana/django-multi-captcha-admin
+
+Easy added captcha to Django administration login page. Inherit from a-roomana/django-multi-captcha-admin
 
 ---
 ## Dependency
