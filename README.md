@@ -19,10 +19,8 @@ Install:
 
     pip install django-grappelli-captcha-admin
 
-if you are using python 2 then install version 1.0.0 (*`pip install django-multi-captcha-admin==1.0.0`*)
 
-
-Add `'multi_captcha_admin'` to your `INSTALLED_APPS` setting before `'django.contrib.admin'` app.
+Add `'captcha_admin'` to your `INSTALLED_APPS` setting before `'django.contrib.admin'` app.
 
 ```python
 INSTALLED_APPS = [
